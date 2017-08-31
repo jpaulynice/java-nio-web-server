@@ -8,10 +8,10 @@ To try the server, I have a sample app deployed under the `htdocs` folder called
 http://localhost:9000/jsoft/index.html
 ```
 
-![Settings Window](https://raw.githubusercontent.com/julesbond007/simple-java-nio-web-server/master/htdocs/jsoft/images/sample_app.png)
+![Settings Window](https://raw.githubusercontent.com/julesbond007/java-nio-web-server/master/htdocs/jsoft/images/sample_app.png)
 
 
-Starting up the server - [Main.java](https://github.com/julesbond007/simple-java-nio-web-server/blob/master/src/main/java/com/nio/http/server/Main.java)
+Starting up the server - [Main.java](https://github.com/julesbond007/java-nio-web-server/blob/master/src/main/java/com/nio/http/server/Main.java)
 
 ```java
 public class Main {
