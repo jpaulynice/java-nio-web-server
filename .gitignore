@@ -1,0 +1,15 @@
+test-output/
+gradle/
+gen/
+bin/
+build/
+/build/
+target/
+.DS_Store
+.gradle
+.settings/
+*.class
+*.classpath
+*.jar
+*.project
+*.log
