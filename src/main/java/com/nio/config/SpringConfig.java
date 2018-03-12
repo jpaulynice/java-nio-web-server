@@ -14,7 +14,5 @@ import org.springframework.context.annotation.FilterType;
 @Configuration
 @ComponentScan(
         basePackages = { "com.nio.http" },
-        excludeFilters = @Filter(
-                type = FilterType.REGEX,
-                pattern = "com.nio.config.*"))
+        excludeFilters = @Filter(type = FilterType.REGEX, pattern = "com.nio.config.*"))
 public class SpringConfig {}
