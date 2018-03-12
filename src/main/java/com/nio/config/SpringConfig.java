@@ -13,14 +13,8 @@ import org.springframework.context.annotation.FilterType;
  */
 @Configuration
 @ComponentScan(
-        basePackages = { SpringConfig.BASE_PACKGE },
+        basePackages = { "com.nio.http" },
         excludeFilters = @Filter(
                 type = FilterType.REGEX,
-                pattern = SpringConfig.EXCL_PACKAGE))
-public class SpringConfig {
-    /** base packages to start scanning beans */
-    protected static final String BASE_PACKGE = "com.nio.http";
-
-    /** we want to exclude the config classes from being picked up by spring */
-    protected static final String EXCL_PACKAGE = "com.nio.config.*";
-}
+                pattern = "com.nio.config.*"))
+public class SpringConfig {}
